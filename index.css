@@ -1,0 +1,92 @@
+body{
+    margin: 0 auto;
+    width: 800px;
+}
+
+h1{
+    color: #ca3e47;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+span{
+    margin: 4px;
+}
+
+.name{
+    text-align: center;
+}
+
+.aboutme-content{
+    display: flex;
+}
+
+.yabuchan{
+    border-radius: 50%;
+    border: medium solid #636e7d;
+}
+
+.aboutme-item{
+    margin: 0 auto;
+}
+
+.sns{
+    padding: 100px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+span{
+    display: block;
+}
+
+.setumei{
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+a{
+    color: 	#1558d6;
+}
+
+.date{
+    color: #636e7d;
+}
+
+img{
+
+    width: 200px;
+}
+
+.career{
+    border-bottom: medium solid #636e7d;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        width: auto;
+        padding: 10px;
+    }
+    .aboutme-content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container{
+        flex-wrap: wrap;
+    }
+    .sns{
+        margin: 0 auto;
+        padding: auto;
+    }
+}
